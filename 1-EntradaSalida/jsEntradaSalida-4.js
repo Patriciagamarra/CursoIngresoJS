@@ -4,6 +4,11 @@
 */
 function Mostar()
 {
+	var apellido
+	apellido= prompt("ingrese su apellido:");
+	document.getElementById("elNombre").value=apellido;
+
+
 	
 }
 
