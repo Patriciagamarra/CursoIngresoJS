@@ -11,9 +11,12 @@ Más de 10 intentos: “afortunado en el amor!!”.*/
 
 var numeroSecreto; 
 var contadorIntentos;
+var numIngresado;
 
 function comenzar()
 {
+numeroSecreto=math.floor(math.Random()*100)+1;
+console.log(numeroSecreto);
 	//Genero el número RANDOM entre 1 y 100
 	 
 	
@@ -22,7 +25,9 @@ function comenzar()
 
 function verificar()
 {
-	
-	
+	numIngresado=document.getElementById ("numIngresado");
+	document.getElementById().value=contadorIntentos;
+	if (numeroSecreto==numeroIngresado)
+	{alert ""}
 
 }
