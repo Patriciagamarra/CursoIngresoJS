@@ -1,7 +1,11 @@
 function Mostrar()
 {
+    var=rta;
+    rta=prompt("ingrese el número clave.");
+    while (rta!=("utn750"));
+    
 
-var clave = prompt("ingrese el número clave.");
+
 
 
 }//FIN DE LA FUNCIÓN
